@@ -184,7 +184,7 @@
   <div class="max-w-3xl mx-auto glass rounded-3xl px-6 sm:px-14 py-14 text-center shadow-glow">
     <h2 class="font-display font-bold text-3xl sm:text-4xl text-bone">Be Part of the Team</h2>
     <p class="mt-4 text-fog text-base sm:text-lg max-w-xl mx-auto">
-      Submit your first contribution and get ready for a short 5-minute discussion. Full instructions are inside the form.
+      Submit your first contribution and get ready for a short 5-minute discussion on 16th - 17th August 2026. Follow instructions in Gform.
     </p>
     <a id="register-btn" href="#" target="_blank" rel="noopener noreferrer"
        aria-label="Fill the registration form (opens in a new tab)"
@@ -225,19 +225,6 @@
   </div>
 </section>
 
-<!-- ============ FINAL CTA ============ -->
-<section class="reveal px-5 py-24 sm:py-32 text-center">
-  <h2 class="font-display font-bold text-3xl sm:text-5xl text-bone">The Countdown Is On.</h2>
-  <p class="mt-4 text-fog text-base sm:text-lg">Registrations close Monday, 10 AM.</p>
-  <div class="mt-9">
-    <a id="final-register-btn" href="#" target="_blank" rel="noopener noreferrer"
-       aria-label="Register now (opens registration form in a new tab)"
-       class="inline-block btn-primary text-white font-semibold px-8 py-4 rounded-full transition-all duration-300">
-      Register Now →
-    </a>
-  </div>
-</section>
-
 </main>
 
 <!-- ============ FOOTER ============ -->
@@ -264,7 +251,7 @@
     targetMinute: 0,
   };
 
-  const registrationButtons = ["hero-register-btn", "register-btn", "final-register-btn"];
+  const registrationButtons = ["hero-register-btn", "register-btn"];
   registrationButtons.forEach((id) => {
     const el = document.getElementById(id);
     if (el) el.href = CONFIG.registrationFormUrl;
@@ -353,3 +340,4 @@
 
 </body>
 </html>
+
